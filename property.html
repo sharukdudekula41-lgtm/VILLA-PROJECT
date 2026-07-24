@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>property</title>
+  <style>
+    .properties {
+      background-image: url(./images/page-heading-bg.jpg);
+      height: 400px;
+    }
+    .icons {
+    margin-right: 100px;
+    }
+    .header {
+    margin-left: 70px;
+  }
+  .buttons button:hover{
+   background: orangered;
+  }
+  .nav-link:hover{
+    color:red;
+  }
+  </style>
+</head>
+
+<body>
+  <section id="properties">
+    <!---- Top header st----->
+    <div class="bg-light py-2 border-bottom">
+      <div class=" header d-flex justify-content-between align-items-center">
+
+
+        <div class="d-flex gap-4">
+          <small class="text-muted">
+            <i>
+              <img src="./icons8-mail-50.png" alt="my mail" width="15px" height="15px">
+            </i> info@company.com
+          </small>
+          <small class="text-muted">
+            <i style="margin-left: 100px;">
+              <img src="./icons8-map-30.png" alt="my map" width="15px" height="15px">
+            </i> Sunny Isles Beach, FL 33160
+          </small>
+        </div>
+
+        <!-- Right Side Icons -->
+        <div class="icons">
+          <div class="d-flex gap-3" style="opacity: 60%;">
+            <ion-icon name="logo-facebook"></ion-icon>
+            <ion-icon name="logo-twitter"></ion-icon>
+            <ion-icon name="logo-linkedin"></ion-icon>
+            <ion-icon name="logo-instagram"></ion-icon>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+    <!---- Top header end----->
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-white">
+      <div class="container">
+
+        <!-- header starts -->
+        <a class="navbar-brand fw-bold fs-4" href="#">VILLA</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!---- Menu st ---->
+        <div class="collapse navbar-collapse justify-content-end" id="navMenu ">
+          <ul class="navbar-nav align-items-center gap-3 ">
+            <li class="nav-item"><a class="nav-link" href="./VILLA .HTML">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="./property.html">Property</a></li>
+            <li class="nav-item"><a class="nav-link" href="./Proprty details.html">Property Details</a></li>
+            <li class="nav-item"><a class="nav-link" href="./Contact Us.html">Contact Us</a></li>
+
+            <!-----menu end----->
+
+            <!---- Schedule Button st----->
+            <li class="nav-item">
+              <a href="#" class="btn btn-dark rounded-pill px-3">
+                <i class="text-warning">
+
+                  <img src="./calendar-solid-full.svg" alt="my calender" width="24px" height="24px">
+                </i> Schedule a visit</a>
+              <!---- Schedule Button end----->
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section>
+      <section class="properties">
+        <div style="padding-top: 190px; ">
+          <span class="text-black"
+            style="background-color: white; margin-left: 560px; padding: 8px;">HOME/PROPERTIES</span><br>
+          <h2 class="text-white fw-bold" style="margin-left:550px ;margin-top: 30px;">PROPERTIES</h2>
+        </div>
+      </section>
+    </section>
+    <section class="buttons">
+      <div class="mb-4" style="margin-left: 450px; margin-top: 80px;">
+        <button class="btn me-2" style="background-color: orangered;">Show All</button>
+        <button class="btn btn-dark me-2">Appartment</button>
+        <button class="btn btn-dark me-2">Villa House</button>
+        <button class="btn btn-dark me-2">Penthouse</button>
+      </div>
+    </section>
+    <!---cards start-->
+    <section class="container" style="margin-top: 50px;">
+      <section class="container">
+
+        <div class="row row-cols-1 row-cols-md-3 g-4 ">
+          <!---card 1 st-->
+          <div class="col shadow border-0">
+            <div class="card-1" style="background-color:whitesmoke; border-radius: 10px;">
+              <img src="./images/property-01.jpg" class="card-img-top" alt="..." style="border-radius: 14%; padding: 20px;">
+              <div class="card-body">
+                <button
+                  style="border: 0; border-radius:7px; margin-left: 10px; margin-top: 10px; background-color:lightpink">Luxuray
+                  Villa</button>
+                <span class="text-danger fw-bold" style="margin-left: 140px;">$ 2.264.000</span>
+                <h5 class="card-title fw-bold" style="margin-top: 10px; margin-left: 25px;"> <strong>18 New street
+                    Miami,
+                    OR 97219</strong></h5><br>
+                <span style="margin-left: 10px; margin-top: 80px; margin-left: 30px;">Bedrooms
+                  :<strong>8</strong></span>
+                <span style="margin-left: 20px;">Bathrooms : <strong>8</strong></span><br>
+                <span style="margin-left: 30px;">Area : <strong>545m2</strong></span>
+                <span style="margin-left: 5px;"> Floor : <strong>3</strong></span>
+                <span style="margin-left: 5px;"> Parking : <strong>6 Spots</strong></span>
+                <hr>
+                <button class="text-white"
+                  style="text-align: center; background-color: black; margin-top: 5px;margin-left: 100px; margin-bottom: 10px; border-radius: 20px;">Schedule
+                  a
+                  Visit
+                </button>
+              </div>
+            </div>
+          </div>
+          <!---- card 2 st ---->
+          <div class="col shadow border-0" >
+            <div class="card-2" style="background-color:whitesmoke;">
+              <img src="./images/property-02.jpg  " class="card-img-top" alt="..." style="border-radius: 14%; padding: 20px;">
+              <div class="card-body">
+                <button
+                  style="border: 0; border-radius:7px; margin-left: 10px; margin-top: 10px; background-color: lightpink;">Luxury
+                  Villa</button>
+                <span class="text-danger fw-bold" style="margin-left: 150px;">$ 1.180.000</span>
+                <h5 class="card-title fw-bold" style="margin-top: 10px; margin-left: 25px;"> <strong>54 Mid Street
+                    Florida,OR 27001</strong></h5><br>
+                <span style="margin-left: 10px; margin-top: 50px; margin-left: 30px;">Bedrooms
+                  :<strong>6</strong></span>
+                <span style="margin-left: 20px;">Bathrooms : <strong>4</strong></span><br>
+                <span style="margin-left: 30px;">Area : <strong>450m2</strong></span>
+                <span style="margin-left: 5px;"> Floor : <strong>3</strong></span>
+                <span style="margin-left: 5px;"> Parking : <strong>8 Spots</strong></span>
+                <hr>
+                <button class="text-white"
+                  style="text-align: center; background-color: black; margin-top: 5px;margin-left: 100px; margin-bottom: 10px; border-radius: 20px;">Schedule
+                  a Visit
+                </button>
+              </div>
+            </div>
+          </div>
+          <!----card 3 st---->
+           <div class="col shadow border-0" >
+            <div class="card-2" style="background-color:whitesmoke;">
+              <img src="./images/property-03.jpg" class="card-img-top" alt="..."   style="border-radius: 14%; padding: 20px;">
+              <div class="card-body">
+                <button
+                  style="border: 0; border-radius:7px; margin-left: 10px; margin-top: 10px; background-color: lightpink;">Luxury
+                  Villa</button>
+                <span class="text-danger fw-bold" style="margin-left: 150px;">$ 1.180.000</span>
+                <h5 class="card-title fw-bold" style="margin-top: 10px; margin-left: 25px;"> <strong>54 Mid Street
+                    Florida,OR 27001</strong></h5><br>
+                <span style="margin-left: 10px; margin-top: 50px; margin-left: 30px;">Bedrooms
+                  :<strong>6</strong></span>
+                <span style="margin-left: 20px;">Bathrooms : <strong>4</strong></span><br>
+                <span style="margin-left: 30px;">Area : <strong>450m2</strong></span>
+                <span style="margin-left: 5px;"> Floor : <strong>3</strong></span>
+                <span style="margin-left: 5px;"> Parking : <strong>8 Spots</strong></span>
+                <hr>
+                <button class="text-white"
+                  style="text-align: center; background-color: black; margin-top: 5px;margin-left: 100px; margin-bottom: 10px; border-radius: 20px;">Schedule
+                  a Visit
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!--- card 4 st--->
+          <div class="col shadow border-bottom-0" ">
+            <div class="card-4" style="background-color: whitesmoke; border-radius: 10px;">
+              <img src="./images/property-04.jpg" alt="" width="350px" style="border-radius: 14%; padding: 20px; margin-right: 20px;">
+              <div class="card-body">
+                <button
+                  style="border: 0; border-radius:7px; margin-left: 10px; margin-top: 10px; background-color: lightpink;">Apartment</button>
+                <span class="text-danger fw-bold" style="margin-left: 170px;">$ 584.500</span>
+                <h5 class="card-title fw-bold" style="margin-top: 10px; margin-left: 10px;"> <strong>12 New Street
+                    Miami,
+                    OR 12650</strong></h5><br>
+                <span style="margin-left: 10px; margin-top: 50px; margin-left: 10px;">Bedrooms
+                  :<strong>4</strong></span>
+                <span style="margin-left: 10px;">Bathrooms : <strong>3</strong></span>
+                <span style="margin-left: 10px;">Area : <strong>125m2</strong></span>
+                <span style="margin-left: 10px;"> Floor : <strong>25th</strong></span>
+                <span style="margin-left: 5px;"> Parking : <strong>2 cars</strong></span>
+                <hr>
+                <button class="text-white"
+                  style="text-align: center; background-color: black; margin-top: 5px;margin-left: 100px; margin-bottom: 10px; border-radius: 20px;">Schedule
+                  a Visit
+                </button>
+              </div>
+            </div>
+          </div>
+          <!--- car 5 st --->
+          <div class="col shadow border-0" >
+            <div class="card-5" style="background-color: whitesmoke; border-radius: 10px;">
+              <img src="./images/property-05.jpg" alt="" width="350px"  style="border-radius: 14%; padding: 20px;">
+              <div class="card-body">
+                <button
+                  style="border: 0; border-radius:7px; margin-left: 10px; margin-top: 10px; background-color: lightpink;">Penthouse</button>
+                <span class="text-danger fw-bold" style="margin-left: 170px;">$ 925.600</span>
+                <h5 class="card-title fw-bold" style="margin-top: 10px; margin-left: 10px;"> <strong>34 Beach street
+                    Miami, Or 42680</strong></h5><br>
+                <span style="margin-left: 10px; margin-top: 50px; margin-left: 10px;">Bedrooms
+                  :<strong>4</strong></span>
+                <span style="margin-left: 10px;">Bathrooms : <strong>4</strong></span>
+                <span style="margin-left: 10px;">Area : <strong>180m2</strong></span>
+                <span style="margin-left: 10px;"> Floor : <strong>38th</strong></span>
+                <span style="margin-left: 5px;"> Parking : <strong>2 cars</strong></span>
+                <hr>
+                <button class="text-white"
+                  style="text-align: center; background-color: black; margin-top: 5px;margin-left: 100px; margin-bottom: 10px; border-radius: 20px;">Schedule
+                  a Visit
+                </button>
+              </div>
+            </div>
+          </div>
+          <!---- card 6 st-->
+          <div class="col shadow border-0" >
+            <div class="card-6 " style="background-color:whitesmoke;">
+              <img src="./images/property-06.jpg" class="card-img-top" alt="..."  style="border-radius: 14%; padding: 20px;">
+              <div class="card-body">
+                <button
+                  style="border: 0; border-radius:7px; margin-left: 10px; margin-top: 10px; background-color: lightpink;">Modern
+                  Condo</button>
+                <span class="text-danger fw-bold" style="margin-left: 140px;">$ 450.000</span>
+                <h5 class="card-title fw-bold" style="margin-top: 5px; margin-left: 10px;"> <strong>22 New Street
+                    Portland,OR 16540</strong></h5><br>
+                <span style="margin-left: 10px; margin-top: 50px; margin-left: 10px;">Bedrooms
+                  :<strong>3</strong></span>
+                <span style="margin-left: 10px;">Bathrooms : <strong>2</strong></span>
+                <span style="margin-left: 10px;">Area : <strong>165m2</strong></span>
+                <span style="margin-left: 10px;"> Floor : <strong>26th</strong></span>
+                <span style="margin-left: 5px;"> Parking : <strong>3 cars</strong></span>
+                <hr>
+                <button class="text-white"
+                  style="text-align: center; background-color: black; margin-top: 5px;margin-left: 100px; margin-bottom: 10px; border-radius: 20px;">Schedule
+                  a Visit
+                </button>
+              </div>
+            </div>
+          </div>
+          <!---card 7-->
+          <div class="col shadow border-0" style="padding: 0px;">
+            <div class="card-2" style="background-color:whitesmoke;border-radius: 10PX;">
+              <img src="./images/property-03.jpg" class="card-img-top" alt="..."  style="border-radius: 14%; padding: 20px;">
+              <div class="card-body">
+                <button
+                  style="border: 0; border-radius:7px; margin-left: 10px; margin-top: 10px; background-color: lightpink;">Luxury
+                  Villa</button>
+                <span class="text-danger fw-bold" style="margin-left: 150px;">$ 1.180.000</span>
+                <h5 class="card-title fw-bold" style="margin-top: 10px; margin-left: 25px;"> <strong>54 Mid Street
+                    Florida,OR 27001</strong></h5><br>
+                <span style="margin-left: 10px; margin-top: 50px; margin-left: 30px;">Bedrooms
+                  :<strong>6</strong></span>
+                <span style="margin-left: 20px;">Bathrooms : <strong>4</strong></span><br>
+                <span style="margin-left: 30px;">Area : <strong>450m2</strong></span>
+                <span style="margin-left: 5px;"> Floor : <strong>3</strong></span>
+                <span style="margin-left: 5px;"> Parking : <strong>8 Spots</strong></span>
+                <hr>
+                <button class="text-white"
+                  style="text-align: center; background-color: black; margin-top: 5px;margin-left: 100px; margin-bottom: 10px; border-radius: 20px;">Schedule
+                  a Visit
+                </button>
+              </div>
+            </div>
+          </div>
+          <!---card 8-->
+          <div class="col shadow border-0" style="padding: 0px;">
+            <div class="card-2" style="background-color:whitesmoke;border-radius: 10PX;">
+              <img src="./images/property-02.jpg " class="card-img-top" alt="..."  style="border-radius: 14%; padding: 20px;">
+              <div class="card-body">
+                <button
+                  style="border: 0; border-radius:7px; margin-left: 10px; margin-top: 10px; background-color: lightpink;">Luxury
+                  Villa</button>
+                <span class="text-danger fw-bold" style="margin-left: 150px;">$ 1.180.000</span>
+                <h5 class="card-title fw-bold" style="margin-top: 10px; margin-left: 25px;"> <strong>54 Mid Street
+                    Florida,OR 27001</strong></h5><br>
+                <span style="margin-left: 10px; margin-top: 50px; margin-left: 30px;">Bedrooms
+                  :<strong>6</strong></span>
+                <span style="margin-left: 20px;">Bathrooms : <strong>4</strong></span><br>
+                <span style="margin-left: 30px;">Area : <strong>450m2</strong></span>
+                <span style="margin-left: 5px;"> Floor : <strong>3</strong></span>
+                <span style="margin-left: 5px;"> Parking : <strong>8 Spots</strong></span>
+                <hr>
+                <button class="text-white"
+                  style="text-align: center; background-color: black; margin-top: 5px;margin-left: 100px; margin-bottom: 10px; border-radius: 20px;">Schedule
+                  a Visit
+                </button>
+              </div>
+            </div>
+          </div>
+          <!---card 9-->
+          <div class="col shadow border-0" style="padding: 0px;">
+            <div class="card-2" style="background-color:whitesmoke;border-radius: 10PX;">
+              <img src="./images/property-01.jpg " class="card-img-top" alt="..."  style="border-radius: 14%; padding: 20px;">
+              <div class="card-body">
+                <button
+                  style="border: 0; border-radius:7px; margin-left: 10px; margin-top: 10px; background-color: lightpink;">Luxury
+                  Villa</button>
+                <span class="text-danger fw-bold" style="margin-left: 150px;">$ 1.180.000</span>
+                <h5 class="card-title fw-bold" style="margin-top: 10px; margin-left: 25px;"> <strong>54 Mid Street
+                    Florida,OR 27001</strong></h5><br>
+                <span style="margin-left: 10px; margin-top: 50px; margin-left: 30px;">Bedrooms
+                  :<strong>6</strong></span>
+                <span style="margin-left: 20px;">Bathrooms : <strong>4</strong></span><br>
+                <span style="margin-left: 30px;">Area : <strong>450m2</strong></span>
+                <span style="margin-left: 5px;"> Floor : <strong>3</strong></span>
+                <span style="margin-left: 5px;"> Parking : <strong>8 Spots</strong></span>
+                <hr>
+                <button class="text-white"
+                  style="text-align: center; background-color: black; margin-top: 5px;margin-left: 100px; margin-bottom: 10px; border-radius: 20px;">Schedule
+                  a Visit
+                </button>
+              </div>
+            </div>
+          </div>
+      </section>
+    </section>
+  </section><br>
+  <!------cards end------>
+   <section>
+     <div style="margin-left: 550px; margin-top: 40px;">
+      <button class="text-white" style="border-radius: 100%; background-color: black; margin-right: 10px;">1</button>
+      <button class="text-white" style="border-radius: 100%; background-color: rgb(211, 25, 25); margin-right: 10px;">2</button>
+      <button class="text-white" style="border-radius: 100%; background-color: black; padding-left: 10px;">3</button>
+      <button class="text-white" style="border-radius: 100%; background-color: black; width: 35px; padding: 2PX; margin-left: 10px;">>></button>  
+     </div>
+   </section><br>
+    <section>
+    <div>
+      <footer>
+        <h6 class="fw-bold text-white text-lg-"
+          style="margin-top: 50px; background-color: black;  padding:30px;  text-align: center;">Copyright © 2048 Villa
+          Agency Co.Ltd.All rights reserved.Design:@Sharukh</h6>
+      </footer>
+    </div>
+  </section>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
